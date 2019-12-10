@@ -1,0 +1,25 @@
+#insti:hover {
+    color: red;
+    font-size: 150%;  
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#insti {
+    background-color: #FF8000;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;    
+
+}
+
+section {
+    background-color: #004d40 ;
+    padding: 25px;
+    border: 15px solid green;
+    width: 250px;
+    margin: 25px ;
+}
+
+

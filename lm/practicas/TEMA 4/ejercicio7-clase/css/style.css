@@ -1,0 +1,23 @@
+section {
+    background-color: #EEE;
+    overflow: visible;
+    height: 50px;
+    border: 1px dotted black;
+    width: 300px;
+}
+
+#p1 {
+    background-color: #EEE;
+    overflow: hidden;
+    height: 50px;
+    border: 1px dotted black;
+    width: 300px;
+}
+
+#p2 {
+    background-color: #EEE;
+    overflow: scroll;
+    height: 75px;
+    border: 1px dotted black;
+    width: 300px;
+}
