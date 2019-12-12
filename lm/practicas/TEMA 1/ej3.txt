@@ -1,0 +1,22 @@
+Que es el lenguaje de marcas
+
+{~Un tipo de implante de la lengua de una gran marca
+~Lenguaje de las personas sordo-mudas
+=Forma de codificar un documento que, junto con el texto, incorpora marcas que contienen infomación adicional acerca de su estructura}
+
+::¿Cuántas partes forman la etiqueta de inicio?::
+{=3
+~5
+~2}
+
+::El lenguaje HTML sirve para progamar aplicaciones::{F}
+
+::¿Cuales de las siguientes personas está considerado el creador de la web?::
+{~ Tim Burton
+~ Lee Harvey Oswal
+= Tim Berners Lee}
+
+::Empresa certificadora de las páginas web::
+{=W3C
+~Instagram
+~Mark Zukerberg}
