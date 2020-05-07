@@ -1,7 +1,8 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
 <rss>
     <channel>
     <title>Julio Vera HTML </title>
+    <link>https://github.com/juliovese231/juliovera.github.io</link>
+    <description>Subscripcion</description>
         <item>
             <title>Ejercicio XML</title>
             <link>http://www.iesgrancapitan.org/</link>
