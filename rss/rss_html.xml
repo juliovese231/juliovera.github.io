@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss>
+    <channel>
+    <title>Julio Vera HTML </title>
+        <item>
+            <title>Ejercicio XML</title>
+            <link>http://www.iesgrancapitan.org/</link>
+            <description>Ejercicio</description>
+        </item>
+    </channel>
+</rss>
