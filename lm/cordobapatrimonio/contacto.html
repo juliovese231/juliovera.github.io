@@ -5,31 +5,64 @@
         <meta charset="utf-8">
         <meta name="description" content="Córdoba ciudad patrimonio">
         <meta name="keywords" content="Turismo, patrimonio, viajes">
-        <!--link rel="stylesheet" href="estilos.css"-->
+        <link rel="stylesheet" href="css/estilos.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/font-awesome.min.css">
     </head>
     
     <body>
-        <header><h1>Cordoba ciudad patrimonio</h1></header>
-        <nav>
-        <a href="index.html">Inicio</a> | <a href="mezquita.html">La Mezquita</a> | <a href="casco.html">Casco Historico</a> | <a href="patios.html">Los patios</a> | <a href="medina.html">Medina Azahara</a> | <a href="contacto.html">Contacto</a>
-        </nav>
+        <header></header>
+    <nav>
+  <ul class="menu">
+    <li class="logo"><img href="index.html" src="images/logotipo.svg" alt="logo" height="100" width="70"></li>
+    <li class="item"><a href="index.html">Inicio</a></li>
+    <li class="item"><a href="mezquita.html">Mezquita</a></li>
+    <li class="item"><a href="casco.html">Casco Historico</a></li>
+    <li class="item"><a href="patios.html">Patios</a></li>
+    <li class="item button"><a href="medina.html">Medina Azahara</a></li>
+    <li class="item button secondary"><a href="contacto.html">Contacto</a></li>
+    
+  </ul>
+</nav>
+     <body>
+        <h1><i class="fa fa-spinner fa-spin" aria-hidden="true"></i> Tienes alguna pregunta?</h1>
         
-        <main>
-            <section>
-                <article>
-                </article>
-                <article>
-                </article>
-            </section>
-        </main>
+        <form action="" method="post">
+            <fieldset>
+                <fieldset>
+                    <legend><h3>Datos Personales</h3></legend>
+                    <label for="nombre">Nombre </label>
+                    <input class="texto" type="text" name="nombre" id="nombre" placeholder="nombre" required/>
+                    <br />
+                    <label for="primer_apellido">Primer apellido </label>
+                    <input class="texto" type="text" name="primer_apellido" id="primer_apellido" autofocus placeholder="primer apellido"/>
+                    <br />
+                    <label for="segundo_apellido">Segundo apellido </label>
+                    <input class="texto" type="text" name="segundo_apellido" id="segundo_apellido" placeholder="segundo apellido"/>
+                    <br />
+                    <label for="correo">Email </label>
+                    <input type="email" name="correo" id="correo" required/><span><i> * jose@gmail.com</i></span>
+                    <br />
+                    
+                </fieldset>
 
-        <aside>
+                <fieldset>
+                    <legend><h3>Escribe tu pregunta</h3></legend>
+                    <label for="observaciones">Pregunta </label>
+                    <textarea name="observaciones" rows="4" cols="20" required >Pon cualquier duda </textarea>
+                    
+                    <br />
+                    <br />
+
+                </fieldset>
+                 <br />
+                <input class="boton" type="submit"/>
+                <input class="boton" type="reset" value="Borrar"/>
+            </fieldset>
+        </form>
+            
         
-        </aside>
-        
-        <footer>
-            Julio Vera
-        </footer>
-    </body>
+    </body>   
+       
 
 </html>

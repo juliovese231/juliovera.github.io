@@ -1,0 +1,160 @@
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+}
+
+.inicio{
+    display: block;
+    margin: auto
+}
+
+iframe{
+    display: block;
+    margin: auto
+}
+
+body{
+  font-family:sans-serif;
+} 
+
+article{
+    
+    margin: 50px
+}
+
+nav{
+  background: #222;
+  padding: 5px 5px;
+  
+}
+
+ul{
+  list-style-type:none;
+    
+}
+
+a{
+  color: white;
+  text-decoration:none;
+}
+
+a:hover{
+  text-decoration:underline;
+  
+}
+
+.menu li{
+  font-size:16px;
+  padding: 5px 5px;
+}
+.menu li a {
+  display:block;
+}
+
+.logo a{
+  font-size:20px;
+}
+
+/* Menu responsivo */
+.menu{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  align-items:center;
+}
+
+
+.bars{
+  background: #999;
+  display:inline-block;
+  height: 2px;
+  position: relative;
+  width: 18px;
+    
+}
+
+.bars:before,
+.bars:after {
+  background: #999;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+.bars:before {
+  top: 5px;
+}
+.bars:after {
+  top: -5px;
+}
+
+
+
+
+/* Formulario */
+
+body {
+    font-family: 'Lato', sans-serif;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #F7F7F7;
+}
+
+textarea {
+    width: 40%;
+    height: 50px;
+    resize: none;
+}
+
+fieldset {
+    background-color: #E1E6E7;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;  
+}
+legend {
+    color: #E56447;
+}
+h1 {
+    color: #E56447;
+    background-color: #E1E6E7;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    margin-top: 20px
+            
+}
+
+label {
+    width: 130px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+
+.texto {
+    width: 200px;
+}
+
+span {
+    color: #A4A4A4;
+    font-size: 12px;
+}
+
+label.chequeo {
+    width: 70px;
+    font-style: italic;
+}
+.boton{
+    color: #E56447;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    
+}
